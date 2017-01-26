@@ -1,0 +1,13 @@
+eclipse.preferences.version=1
+encoding//wcm/widget/LogVisualizer/src/main/resources/LogVisualizer.properties=utf8
+encoding//wcm/widget/LogVisualizer/src/main/resources/LogVisualizer_en_US.properties=utf8
+encoding//wcm/widget/LogVisualizer/src/main/resources/LogVisualizer_es.properties=utf8
+encoding//wcm/widget/LogVisualizer/src/main/resources/LogVisualizer_pt_BR.properties=utf8
+encoding//wcm/widget/LogVisualizer/src/main/resources/application.info=utf8
+encoding//wcm/widget/LogVisualizer/src/main/resources/edit.ftl=utf8
+encoding//wcm/widget/LogVisualizer/src/main/resources/view.ftl=utf8
+encoding//wcm/widget/LogVisualizer/src/main/webapp/WEB-INF/jboss-web.xml=utf8
+encoding//wcm/widget/LogVisualizer/src/main/webapp/WEB-INF/web.xml=utf8
+encoding//wcm/widget/LogVisualizer/src/main/webapp/resources/css/LogVisualizer.css=utf8
+encoding//wcm/widget/LogVisualizer/src/main/webapp/resources/images/icon.png=utf8
+encoding//wcm/widget/LogVisualizer/src/main/webapp/resources/js/LogVisualizer.js=utf8
