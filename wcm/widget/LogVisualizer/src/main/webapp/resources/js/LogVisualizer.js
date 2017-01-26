@@ -21,10 +21,8 @@ var HelloWorld = SuperWidget.extend({
         	useSeconds: true
         });
         //$('#PnlLOGViewer').hide();
-        
+        lblPerDe.innerHTML="De: "+ this.RetPerLOG();
         //$('#PnlLOGViewer').hide();
-        
-        this.runSWAP();
         
         this.loadTable();
         
@@ -134,7 +132,6 @@ var HelloWorld = SuperWidget.extend({
     },
     
     runSWAP: function(){
-    	var that = this;
     	var cURLBase = "172.16.70.112:32234";
     	var request = new XMLHttpRequest();
     	var cURL = "http://"+cURLBase+"/tls/?oper=SWAP";
@@ -143,7 +140,7 @@ var HelloWorld = SuperWidget.extend({
     	request.onreadystatechange= function(){
 			if(request.readyState==4){
 				if((request.status==200 || request.status==400 || location.href.indexOf("http")==-1 ) && request.responseText != "" ){
-					setTimeout(function() {/*window.alert(request.responseText);*/lblPerDe.innerHTML="De: "+ that.RetPerLOG();}, 100);
+					setTimeout(function() {window.alert(request.responseText);}, 100);
 				}
 			}
 		}
